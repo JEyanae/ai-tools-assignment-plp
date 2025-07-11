@@ -30,10 +30,6 @@ This project demonstrates my understanding and practical implementation of key A
 ├── AI_Tools_Assignment_Report.pdf # Full assignment report (theory + practical)
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🧠 Part 1: Theoretical Understanding
@@ -81,13 +77,7 @@ Covers:
 
 All visual results of model training, prediction, and NER/sentiment extraction are in the `/screenshots` folder.
 
----
-
-## 🎥 Video Presentation
-
-- **Duration:** 3 minutes  
-- **Link:** *[To be added after upload]*  
-- Explains: My approach, tool choice, challenges, and key learnings.
+--
 
 ---
 
