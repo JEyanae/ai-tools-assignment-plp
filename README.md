@@ -1,94 +1,102 @@
-# 📘 AI Tools Assignment – Mastering the AI Toolkit
+# 🧠 AI Tools Assignment – Mastering the AI Toolkit
 
-**Author:** Longoli Joseph Eyanae  
+**Name:** Longoli Joseph Eyanae  
 **Program:** Power Learn Project – AI Software Engineering Track  
-**Date:** July 2025
+**Date:** July 2025  
+
+This project demonstrates the application of various AI frameworks and libraries to solve real-world machine learning and NLP tasks using Scikit-learn, TensorFlow, and spaCy.
 
 ---
 
-## 🔍 Overview
+## 📘 Part 1: Theoretical Understanding
 
-This project demonstrates my understanding and practical implementation of key AI tools and frameworks. It includes classical machine learning with Scikit-learn, deep learning with TensorFlow, and NLP with spaCy, along with an ethical analysis and optimization insights.
+- Compared TensorFlow and PyTorch in terms of graph execution, ease of use, and deployment.
+- Described use cases for Jupyter Notebooks in AI workflows.
+- Explained how spaCy enhances NLP vs. basic string operations.
+- Analyzed Scikit-learn vs. TensorFlow in terms of application scope, beginner friendliness, and community support.
 
----
-
-## 📂 Contents
-
-📁 ai-tools-assignment/
-│
-├── task1_scikit_iris.ipynb # Decision Tree on Iris Dataset
-├── task2_tensorflow_mnist.ipynb # CNN Model on MNIST Digits
-├── task3_spacy_nlp.ipynb # NER & Sentiment on Amazon Reviews
-│
-├── screenshots/
-│ ├── task1_iris_evaluation.png
-│ ├── task2_mnist_accuracy_output.png
-│ ├── task2_mnist_prediction_1.png ... task2_mnist_prediction_5.png
-│ ├── task3_spacy_ner_output.png
-│ ├── task3_spacy_sentiment_output.png
-│
-├── AI_Tools_Assignment_Report.pdf # Full assignment report (theory + practical)
-└── README.md
-
----
-
-## 🧠 Part 1: Theoretical Understanding
-
-Covers:
-- Differences between TensorFlow and PyTorch
-- Jupyter Notebook use cases in AI
-- spaCy vs Python string ops
-- Comparison of Scikit-learn vs TensorFlow
-
-✅ See full answers in the `AI_Tools_Assignment_Report.pdf`.
+*(Detailed answers are included in the PDF report)*
 
 ---
 
 ## 🔬 Part 2: Practical Implementation
 
-### 🔹 Task 1 – Classical ML with Scikit-learn
-- **Dataset:** Iris Species
-- **Model:** Decision Tree Classifier
-- **Metrics:** Accuracy, precision, recall
-- **Script:** `task1_scikit_iris.ipynb`
+### 🌸 Task 1 – Iris Classification (Scikit-learn)
 
-### 🔹 Task 2 – Deep Learning with TensorFlow
-- **Dataset:** MNIST Handwritten Digits
-- **Model:** CNN
-- **Goal:** >95% test accuracy
-- **Script:** `task2_tensorflow_mnist.ipynb`
+- **Dataset:** Iris Species Dataset  
+- **Tool:** Scikit-learn  
+- **Goal:** Train a Decision Tree classifier to predict iris species  
+- **Notebook:** `task1_scikit_iris.ipynb`  
+- **Techniques:** Preprocessing, model training, evaluation  
+- **Metrics:** Accuracy, precision, recall  
 
-### 🔹 Task 3 – NLP with spaCy
-- **Dataset:** Amazon Product Reviews
-- **Tasks:** NER + Sentiment Analysis
-- **Script:** `task3_spacy_nlp.ipynb`
-
----
-
-## 🛡️ Part 3: Ethics & Optimization
-
-- Bias reflection on datasets (MNIST, Amazon reviews)
-- Fairness tools mentioned (e.g., TensorFlow Fairness Indicators, spaCy rules)
-- Troubleshooting common TensorFlow bugs
+#### 📸 Screenshots:
+- `scikit1.png` – Dataset preview  
+- `scikit2.png` – Model training output  
+- `scikit3.png` – Evaluation metrics  
+- `scikit4.png` – Confusion Matrix  
+- `scikit5.png` – Sample predictions  
 
 ---
 
-## 🖼️ Screenshots
+### 🔢 Task 2 – Digit Recognition with CNN (TensorFlow)
 
-All visual results of model training, prediction, and NER/sentiment extraction are in the `/screenshots` folder.
+- **Dataset:** MNIST Handwritten Digits  
+- **Tool:** TensorFlow (Keras API)  
+- **Goal:** Build a CNN model to classify handwritten digits  
+- **Notebook:** `task2_tensorflow_mnist.ipynb`  
+- **Target:** Achieve >95% test accuracy  
+- **Output:** Accuracy graph + sample predictions  
 
---
+#### 📸 Screenshots:
+- `task2_mnist_accuracy_output.png` – Accuracy/Loss graph  
+- `task2_mnist_prediction_1.png` – Sample prediction 1  
+- `task2_mnist_prediction_2.png` – Sample prediction 2  
+- `task2_mnist_prediction_3.png` – Sample prediction 3  
+- `task2_mnist_prediction_4.png` – Sample prediction 4  
+- `task2_mnist_prediction_5.png` – Sample prediction 5  
 
 ---
 
-## ✅ How to Run
+### 🧠 Task 3 – NLP with spaCy
 
-Open each `.ipynb` file in [Google Colab](https://colab.research.google.com/) or Jupyter Notebook and run cell by cell. All required libraries are standard: `scikit-learn`, `tensorflow`, `matplotlib`, `spaCy`, etc.
+- **Dataset:** Amazon Product Reviews  
+- **Tool:** spaCy  
+- **Goal:** Perform Named Entity Recognition (NER) and rule-based Sentiment Analysis  
+- **Notebook:** `task3_spacy_nlp.ipynb`  
+
+#### 📸 Screenshots:
+- `task3_spacy_ner_output.png` – Named Entity Recognition output  
+- `task3_spacy_sentiment_output.png` – Sentiment analysis result  
 
 ---
 
-## 📌 License
+## 🤖 Part 3: Ethics & Optimization
 
-This project is for educational purposes as part of the Power Learn Project AI Track.
+- **Bias Detection:** Explored bias in MNIST digit recognition and Amazon Reviews sentiment—highlighted imbalance and oversimplified rule-based assumptions.
+- **Mitigation Tools:** Noted TensorFlow Fairness Indicators and spaCy rule-based patterns as potential solutions.
+- **Bug Fixing:** Resolved common TensorFlow issues such as shape mismatches and improper loss function configurations.
+
+---
+
+## 📄 Report
+
+The full report (PDF) includes:
+- Theoretical responses
+- Code explanations
+- Screenshots
+- Ethical analysis
+
+📎 [`AI_Tools_Assignment_Report_Longoli_Joseph_Eyanae.pdf`](./AI_Tools_Assignment_Report_Longoli_Joseph_Eyanae.pdf)
+
+---
+
+## ✅ Summary
+
+This assignment demonstrated practical use of:
+- Scikit-learn for classical ML
+- TensorFlow for deep learning
+- spaCy for NLP  
+with ethical reflections and clean code structure.
 
 ---
